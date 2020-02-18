@@ -3,7 +3,7 @@ pipeline {
         docker {
             image 'maven:3-alpine' 
             args '-v /root/.m2:/root/.m2'
-   	    registryUrl 'https://c.163.com/hub/library' 
+   	    registryUrl 'https://hub.c.163.com/library' 
         }
     }
     stages {
